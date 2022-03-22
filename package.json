@@ -1,0 +1,45 @@
+{
+  "name": "yshello",
+  "version": "1.2.7",
+  "description": "ReactJS Component for saying hello.",
+  "main": "yshello.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "lint": "eslint yshello.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "ReactJS",
+    "Component",
+    "SVG",
+    "File",
+    "CSS",
+    "DOM",
+    "Ajax"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blasvicco/bv-react-svgloader.git"
+  },
+  "author": "Daniel",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/eslint-parser": "^7.14.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-webpack-plugin": "^2.5.4",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
