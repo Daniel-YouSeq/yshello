@@ -15,7 +15,7 @@ module.exports = (env) => {
       path: path.join(__dirname, 'build'),
       filename: 'js/yshello.min.js',
       library: {
-        name: 'yshello',
+        name: 'Hello',
         type: 'umd',
       },
     },
